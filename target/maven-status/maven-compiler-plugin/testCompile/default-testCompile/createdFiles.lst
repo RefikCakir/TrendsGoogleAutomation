@@ -1,0 +1,11 @@
+com\trendsGoogle\pages\ComparePage.class
+com\trendsGoogle\runner\TestRunner.class
+com\trendsGoogle\stepDefinitions\GoogleTrend_StepDefinitions.class
+com\trendsGoogle\utils\Driver.class
+com\trendsGoogle\runner\FailedRunner.class
+com\trendsGoogle\utils\Browser.class
+com\trendsGoogle\stepDefinitions\Hooks.class
+com\trendsGoogle\utils\ConfigurationReader.class
+com\trendsGoogle\pages\ExplorePage.class
+com\trendsGoogle\pages\BasePage.class
+com\trendsGoogle\pages\HomePage.class
