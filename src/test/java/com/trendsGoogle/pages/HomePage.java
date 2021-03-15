@@ -14,9 +14,7 @@ public class HomePage extends BasePage{
 
 
     public void enterInput (String string){
-
-    input.sendKeys(string,Keys.ENTER);
-
-
+        input.sendKeys(string,Keys.ENTER);
     }
+
 }

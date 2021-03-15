@@ -20,15 +20,13 @@ public class ExplorePage extends BasePage{
 
     public void PageName(){
         pageName.getText();
-
     }
-    public void compareSearchBox(String JSText){
 
+    public void compareSearchBox(String JSText){
         compareBtn.click();
         compareTextBox.sendKeys(JSText);
         compareTextBox.sendKeys(Keys.ARROW_DOWN);
         compareTextBox.sendKeys(Keys.ENTER);
-
     }
 
 }

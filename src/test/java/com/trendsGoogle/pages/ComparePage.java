@@ -26,6 +26,7 @@ public class ComparePage extends BasePage {
     @FindBy(xpath = "//div[contains(text(),'Past 90 days')]")
     private WebElement timeDropDown;
 
+
     @FindBy(xpath = "//span[@class='progress-bar-multi-heat-volume']")
     private WebElement percentual;
 
@@ -34,38 +35,26 @@ public class ComparePage extends BasePage {
 
     public void getComparePageName(){
         pageName.getText();
-
-
     }
+
     public void selectLocation(String text){
-
         locationsDropDown.click();
-
         searchLocation.sendKeys(text);
-
-       searchLocation.sendKeys(Keys.ARROW_DOWN);
-
+        searchLocation.sendKeys(Keys.ARROW_DOWN);
         searchLocation.sendKeys(Keys.ENTER);
-
     }
+
     public void  selectTime(){
-
-
 
         timeDropDownClick.click();
         timeDropDown.click();
-
     }
-
-
 
     public void getPercentual (){
 
         percentual.getText();
         Actions actions = new Actions(Driver.getDriver());
-        actions.moveToElement(percentual).perform();
-
-
+        actions.moveToElement(percentual).perform() ;
 
     }
 

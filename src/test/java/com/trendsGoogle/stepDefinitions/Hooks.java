@@ -37,8 +37,6 @@ public class Hooks {
         }
 
 
-
-
         @After
         public void tearDown(Scenario scenario) {
             //this is a hook after
@@ -48,7 +46,7 @@ public class Hooks {
                 scenario.attach(data, "image/png", scenario.getName());
             }
 
-           Driver.closeDriver();
+         //  Driver.closeDriver();
             System.out.println("\n:::(^_^) End of test execution (*_*):::");
         }
 
